@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // "use client";
 // import { useState } from "react";
 // import { useRouter } from "next/navigation";
@@ -393,8 +392,6 @@
 //   );
 // }
 
-=======
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";

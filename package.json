@@ -1,0 +1,54 @@
+{
+  "name": "olambe-detty-december",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.104.0",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^16.1.0",
+    "nodemailer": "^6.9.16",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+=======
+    "next": "^16.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@supabase/supabase-js": "^2.47.0",
+    "@supabase/ssr": "^0.5.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16",
+    "qrcode": "^1.5.4",
+    "zod": "^3.23.8",
+    "date-fns": "^4.1.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.1.0"
+>>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
+  }
+}

@@ -89,7 +89,6 @@ select option { background: #17161F; color: #EDEAF5; }
 
 /* Scrollable tables */
 .table-scroll { overflow-x: auto; }
-<<<<<<< HEAD
 
 .perspective {
   perspective: 1200px;
@@ -130,5 +129,3 @@ select option { background: #17161F; color: #EDEAF5; }
 .flip-number {
   transform: rotateX(180deg);
 }
-=======
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70

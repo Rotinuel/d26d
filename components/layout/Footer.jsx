@@ -14,19 +14,11 @@ export default function Footer() {
               <span className="text-gold">December Carnival</span>
             </p>
             <p className="text-muted text-sm mb-4 leading-relaxed max-w-sm">
-<<<<<<< HEAD
               The most anticipated December celebration. Four days of music, food, culture, and unforgettable memories in Ogun State.
             </p>
             <div className="flex gap-4 text-muted text-sm">
               <a href={`https://instagram.com/${EVENT.instagram.replace("@","")}`} target="_blank" className="hover:text-gold transition-colors">Instagram</a>
               <a href={`https://x.com/${EVENT.twitter.replace("@","")}`} target="_blank" className="hover:text-gold transition-colors">X</a>
-=======
-              Nigeria's most anticipated December celebration. Four days of music, food, culture, and unforgettable memories in Ogun State.
-            </p>
-            <div className="flex gap-4 text-muted text-sm">
-              <a href={`https://instagram.com/${EVENT.instagram.replace("@","")}`} target="_blank" className="hover:text-gold transition-colors">Instagram</a>
-              <a href={`https://twitter.com/${EVENT.twitter.replace("@","")}`} target="_blank" className="hover:text-gold transition-colors">Twitter/X</a>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
               <a href={`https://facebook.com/${EVENT.facebook}`} target="_blank" className="hover:text-gold transition-colors">Facebook</a>
             </div>
           </div>
@@ -37,16 +29,9 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               {[
                 ["/#tickets", "Buy Tickets"],
-<<<<<<< HEAD
                 ["/vendor/apply", "Become a Vendor"],
                 ["/sponsor/packages", "Sponsor the Event"],
                 ["/login", "Attendee Login"],
-=======
-                ["/register", "Create an Account"],
-                ["/vendor/apply", "Become a Vendor"],
-                ["/sponsor/packages", "Sponsor the Event"],
-                ["/login", "Sign In"],
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
               ].map(([href, label]) => (
                 <Link key={href} href={href} className="text-sm text-muted hover:text-gold transition-colors">
                   {label}
@@ -70,11 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted">
-<<<<<<< HEAD
           <p>© 2026 Olambe Detty December Carnival. All rights reserved.</p>
-=======
-          <p>© 2025 Olambe Detty December Carnival. All rights reserved.</p>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
           <p>Payments powered by <span className="text-gold font-semibold">Paystack</span> · Secured with 256-bit SSL</p>
         </div>
       </div>

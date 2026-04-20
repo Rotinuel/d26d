@@ -36,11 +36,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span className="font-display text-xl font-black text-text-base">
-<<<<<<< HEAD
             ODDC<span className="text-gold">26</span>
-=======
-            ODDC<span className="text-gold">25</span>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
           </span>
         </Link>
 
@@ -79,13 +75,8 @@ export default function Navbar() {
               <Link href="/login">
                 <Button variant="secondary" size="sm">Sign In</Button>
               </Link>
-<<<<<<< HEAD
               <Link href="/#tickets">
                 <Button size="sm">Get Tickets</Button>
-=======
-              <Link href="/register">
-                <Button size="sm">Register</Button>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
               </Link>
             </>
           )}
@@ -126,13 +117,8 @@ export default function Navbar() {
                 <Link href="/login" onClick={() => setMobileOpen(false)}>
                   <Button variant="secondary" size="sm" className="w-full">Sign In</Button>
                 </Link>
-<<<<<<< HEAD
                 <Link href="/#tickets" onClick={() => setMobileOpen(false)}>
                   <Button size="sm" className="w-full">Get Tickets</Button>
-=======
-                <Link href="/register" onClick={() => setMobileOpen(false)}>
-                  <Button size="sm" className="w-full">Register</Button>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
                 </Link>
               </>
             )}

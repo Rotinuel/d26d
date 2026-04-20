@@ -6,25 +6,14 @@ import { ToastProvider } from "@/components/ui/Toast";
 
 export const metadata = {
   title: {
-<<<<<<< HEAD
     default: "Olambe Detty December Carnival 2026",
     template: "%s | ODDC 2026",
   },
   description:
-    "Nigeria's most anticipated December celebration. Four days of music, culture, food, and unforgettable memories. Dec 23–26, 2026 · Olambe, Ogun State.",
+    "The most anticipated December celebration. Four days of music, culture, food, and unforgettable memories. Dec 23–26, 2026 · Olambe, Ogun State.",
   keywords: ["Olambe", "Detty December", "Carnival", "Nigeria", "Festival", "Lagos", "Ogun State"],
   openGraph: {
     title: "Olambe Detty December Carnival 2026",
-=======
-    default: "Olambe Detty December Carnival 2025",
-    template: "%s | ODDC 2025",
-  },
-  description:
-    "Nigeria's most anticipated December celebration. Four days of music, culture, food, and unforgettable memories. Dec 23–26, 2025 · Olambe, Ogun State.",
-  keywords: ["Olambe", "Detty December", "Carnival", "Nigeria", "Festival", "Lagos", "Ogun State"],
-  openGraph: {
-    title: "Olambe Detty December Carnival 2025",
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
     description: "Dec 23–26 · Olambe, Ogun State, Nigeria",
     type: "website",
     locale: "en_NG",

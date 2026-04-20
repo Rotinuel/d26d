@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // "use client";
 // import { useState } from "react";
 // import { useRouter, useSearchParams } from "next/navigation";
@@ -110,8 +109,6 @@
 // }
 
 
-=======
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
 "use client";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -161,11 +158,7 @@ export default function LoginPage() {
         {/* Header */}
         <div className="text-center mb-8">
           <Link href="/" className="font-display text-2xl font-black">
-<<<<<<< HEAD
             ODDC<span className="text-gold">26</span>
-=======
-            ODDC<span className="text-gold">25</span>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
           </Link>
           <h1 className="font-display text-3xl font-bold mt-4 mb-2">Welcome Back</h1>
           <p className="text-muted text-sm">Sign in to your account to access your portal</p>

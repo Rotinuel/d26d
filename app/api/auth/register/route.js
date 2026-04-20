@@ -15,19 +15,7 @@ export async function POST(request) {
       return NextResponse.json({ error: "Password must be at least 8 characters" }, { status: 400 });
     }
 
-<<<<<<< HEAD
     const db = supabaseAdmin();
-=======
-    let db;
-    try {
-      db = supabaseAdmin();
-    } catch {
-      return NextResponse.json(
-        { error: "Database not configured. Please set up your .env.local file — see .env.local.example." },
-        { status: 503 }
-      );
-    }
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
 
     // Check existing user
     const { data: existing } = await db.from("users").select("id").eq("email", email.toLowerCase()).single();

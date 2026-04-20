@@ -42,11 +42,7 @@ export default function AdminOverview() {
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="font-display text-3xl font-bold">Dashboard Overview</h1>
-<<<<<<< HEAD
           <p className="text-muted text-sm mt-1">Live · Olambe Detty December Carnival 2026</p>
-=======
-          <p className="text-muted text-sm mt-1">Live · Olambe Detty December Carnival 2025</p>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
         </div>
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 bg-emerald rounded-full animate-pulse" />

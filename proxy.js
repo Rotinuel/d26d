@@ -52,7 +52,6 @@ export const config = {
   matcher: ["/api/:path*"],
 };
 
-<<<<<<< HEAD
 
 
 
@@ -145,5 +144,3 @@ export const config = {
 //   ],
 // };
 
-=======
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70

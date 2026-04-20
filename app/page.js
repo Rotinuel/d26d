@@ -1,18 +1,11 @@
 import Link from "next/link";
 import Countdown from "@/components/sections/Countdown";
 import TicketCard from "@/components/sections/TicketCard";
-<<<<<<< HEAD
 import ScheduleTabs from "@/components/sections/ScheduleTabs";
 import { TICKET_TIERS, SCHEDULE, EVENT_TYPE_COLORS, SPONSOR_PACKAGES, EVENT, naira } from "@/lib/constants";
 
 export const metadata = {
   title: "Olambe Detty December 2026 — Dec 23–26, Ogun State",
-=======
-import { TICKET_TIERS, SCHEDULE, EVENT_TYPE_COLORS, SPONSOR_PACKAGES, EVENT, naira } from "@/lib/constants";
-
-export const metadata = {
-  title: "Olambe Detty December Carnival 2025 — Dec 23–26, Ogun State",
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
 };
 
 export default function HomePage() {
@@ -27,16 +20,11 @@ export default function HomePage() {
 
         <div className="relative z-10 flex flex-col items-center gap-6 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-1.5 text-gold text-xs font-semibold tracking-wide animate-fade-up">
-<<<<<<< HEAD
             🇳🇬 Olambe, Ogun State · Dec 23–26, 2026
-=======
-            🇳🇬 Olambe, Ogun State · Dec 23–26, 2025
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
           </div>
 
           <h1 className="font-display text-[clamp(44px,9vw,96px)] font-black leading-[1.0] animate-fade-up [animation-delay:100ms]">
             Olambe Detty<br />
-<<<<<<< HEAD
             <span className="text-gradient">December</span>
           </h1>
 
@@ -45,17 +33,6 @@ export default function HomePage() {
           </p>
 
           <div className="animate-fade-up [animation-delay:300ms] w-full max-w-4xl">
-=======
-            <span className="text-gradient">December</span><br />
-            Carnival
-          </h1>
-
-          <p className="text-muted text-lg max-w-xl leading-relaxed animate-fade-up [animation-delay:200ms]">
-            Nigeria's most anticipated December celebration. Four electric nights of music, culture, food, comedy, and memories you'll never forget.
-          </p>
-
-          <div className="animate-fade-up [animation-delay:300ms] w-full max-w-md">
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
             <Countdown />
           </div>
 
@@ -121,11 +98,7 @@ export default function HomePage() {
       <section className="py-20 px-4 bg-surface border-y border-border">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-<<<<<<< HEAD
             <p className="text-gold text-xs font-bold uppercase tracking-widest mb-3">Dec 23–26, 2026</p>
-=======
-            <p className="text-gold text-xs font-bold uppercase tracking-widest mb-3">Dec 23–26, 2025</p>
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
             <h2 className="font-display text-5xl font-bold mb-4">
               Event <span className="text-gold">Schedule</span>
             </h2>
@@ -216,8 +189,6 @@ export default function HomePage() {
   );
 }
 
-<<<<<<< HEAD
-=======
 // ── Schedule Tabs (Client Component) ─────────────────────────────────────────
 "use client";
 import { useState } from "react";
@@ -270,4 +241,3 @@ function ScheduleTabs() {
     </div>
   );
 }
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70

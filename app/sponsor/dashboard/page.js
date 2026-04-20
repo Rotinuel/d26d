@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // "use client";
 // import { useState, useEffect } from "react";
 // import { useRouter } from "next/navigation";
@@ -176,8 +175,6 @@
 //   );
 // }
 
-=======
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -354,7 +351,7 @@ export default function SponsorDashboard() {
         <p className="text-sm text-muted">
           📞 For partnership queries, contact our sponsorship team at{" "}
           <a href="mailto:sponsors@olambedetty.ng" className="text-gold hover:underline">sponsors@olambedetty.ng</a>{" "}
-          or WhatsApp <a href="https://wa.me/2348012345678" className="text-gold hover:underline">+234 801 234 5678</a>.
+          or WhatsApp <a href="https://wa.me/2348134284100" className="text-gold hover:underline">+234 801 234 5678</a>.
         </p>
       </Card>
     </div>

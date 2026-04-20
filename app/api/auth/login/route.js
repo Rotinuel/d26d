@@ -9,19 +9,7 @@ export async function POST(request) {
       return NextResponse.json({ error: "Email and password are required" }, { status: 400 });
     }
 
-<<<<<<< HEAD
     const db = supabaseAdmin();
-=======
-    let db;
-    try {
-      db = supabaseAdmin();
-    } catch {
-      return NextResponse.json(
-        { error: "Database not configured. Please set up your .env.local file." },
-        { status: 503 }
-      );
-    }
->>>>>>> e1d658b01c6caaf9506d7b7dfaf871069195ae70
     const { data: user, error } = await db
       .from("users")
       .select("id, name, email, phone, password_hash, role")
